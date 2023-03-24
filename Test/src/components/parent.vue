@@ -73,7 +73,7 @@ export default {
     }
     #Main{
     text-align: center;
-    margin-top: 60%;
+    margin-top: 50%;
     
     }
     #Main h1 {
