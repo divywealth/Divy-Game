@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="Result">
         <p>Reaction Time: {{score}}ms</p>
         <h1>{{ rank }}</h1>
     </div>
@@ -28,7 +28,15 @@ export default {
 </script>
 
 <style scoped>
-
+@media only screen and (max-width: 1000px) {
+    #Result p {
+        font-size: 30px;
+        
+    }
+    #Result h1 {
+        font-size: 40px
+    }
+}
 
 
 </style>

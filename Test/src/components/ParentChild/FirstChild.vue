@@ -49,6 +49,15 @@ export default {
     padding: 100px 0;
     margin: 40px auto;
 }
-
+@media only screen and (max-width: 1000px) {
+    #block{
+        background: #0faf87 ;
+        width: 300px;
+        border-radius: 10px;
+        color: white;
+        padding: 100px 0;
+        margin: 40px auto;
+    }
+}
 
 </style>
